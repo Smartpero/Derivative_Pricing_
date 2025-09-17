@@ -29,7 +29,7 @@ It is intended for implementing models such as Black-Scholes, binomial/trinomial
 4. Install dependencies:
     ```bash
    pip install -r requirements.txt
-   
+
    If requirements.txt is not yet created, you may install basic dependencies manually:
     ```bash
    pip install numpy scipy pandas matplotlib seaborn statsmodels
