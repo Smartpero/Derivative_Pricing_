@@ -21,11 +21,17 @@ It is intended for implementing models such as Black-Scholes, binomial/trinomial
    git clone https://github.com/Smartpero/Derivative_Pricing_.git
    cd Derivative_Pricing_
 2. (Optional) Create a virtual environment:
+   
+   bash
    python3 -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install dependencies:
+   
+4. Install dependencies:
+   bash
    pip install -r requirements.txt
+   
    If requirements.txt is not yet created, you may install basic dependencies manually:
+   bash
    pip install numpy scipy pandas matplotlib seaborn statsmodels
    
 ## Usage
