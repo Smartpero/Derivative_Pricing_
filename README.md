@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository will contain projects, scripts, and notebooks related to **derivative pricing**.  
+This repository contains projects, scripts, and notebooks related to **derivative pricing**.  
 It is intended for implementing models such as Black-Scholes, binomial/trinomial trees, and Monte Carlo simulation for pricing financial derivatives (options, futures, swaps, etc.).
 
 ## Table of Contents
@@ -30,9 +30,9 @@ It is intended for implementing models such as Black-Scholes, binomial/trinomial
     ```bash
     pip install -r requirements.txt
 
-   If requirements.txt is not yet created, you may install basic dependencies manually:
+   - If requirements.txt is not yet created, you may install basic dependencies manually:
     ```bash
-   pip install numpy scipy pandas matplotlib seaborn statsmodels
+    pip install numpy scipy pandas matplotlib seaborn statsmodels
    
 ## Usage
 
