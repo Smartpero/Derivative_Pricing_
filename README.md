@@ -22,16 +22,16 @@ It is intended for implementing models such as Black-Scholes, binomial/trinomial
    cd Derivative_Pricing_
 2. (Optional) Create a virtual environment:
    
-   bash
+    ```bash
    python3 -m venv venv
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    
 4. Install dependencies:
-   bash
+    ```bash
    pip install -r requirements.txt
    
    If requirements.txt is not yet created, you may install basic dependencies manually:
-   bash
+    ```bash
    pip install numpy scipy pandas matplotlib seaborn statsmodels
    
 ## Usage
@@ -39,8 +39,10 @@ It is intended for implementing models such as Black-Scholes, binomial/trinomial
 Add Jupyter notebooks or scripts into this repository.
 
 - Example workflow (future setup):
+  ```bash
   python price_option.py --model black_scholes --S0 100 --K 105 --T 1 --r 0.05 --sigma 0.2
 - Launch Jupyter for interactive exploration:
+  ```bash
   jupyter notebook
 ## Features
 
